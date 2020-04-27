@@ -10,10 +10,10 @@ JavaScript ES6, HTML5, CSS/SCSS, webpack, babel, React
 
 ## Setup
 
-Download repository and enter commend in terminal:
+Download repository and enter command in terminal:
 `npm i `
 
-When files updated, you enter new commend:
+When files updated, you enter new command:
 `npm start`
 
 Webpack runned and app will be enabled in a new browser window.
