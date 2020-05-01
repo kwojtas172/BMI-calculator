@@ -2,10 +2,24 @@
 <html>
   <head>
     <title>Getting Started</title>
-    <script src="https://unpkg.com/lodash@4.16.6"></script>
+    <!-- <script src="https://unpkg.com/lodash@4.16.6"></script> -->
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
+    <div class="main-container">
+      <header>BMI Calculator</header>
+      <main>
+        <div class="container">
+          <input type="text" placeholder="Wpisz wagę w kg" id="weightKg"></input>
+          <input type="text" placeholder="Wpisz wzrost w cm" id="heightCm"></input>
+          <input type="submit" id="send"></button>
+          <span id="score"></span>
+          <span id="summary"></span>
+          <!-- <div class="" id="app"></div> -->
+        </div>
+      </main>
+    </div>
       <div class="" id="app"></div>
-    <script src="./src/app.js"></script>
+    <script src="../dist/bundle.js"></script>
   <script src="bundle.js"></script></body>
 </html>
